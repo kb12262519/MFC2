@@ -158,7 +158,7 @@ void CPenSDIView::OnPenColor()
 {
 	CColorDialog dlg;
 	if (dlg.DoModal() == IDOK) {
-		col = dlg.GetColor();
+		col = dlg.GetColor(); 
 	}
 	// TODO: 여기에 명령 처리기 코드를 추가합니다.
 }
